@@ -32,9 +32,9 @@ Song (Node)
         ↕
 MP3Player (Playback Engine with Threading)
 ## 📚 1️⃣ Pseudocode – Song Class
-START
+    START
 
-CLASS Song
+    CLASS Song
 
     DECLARE title : String
     DECLARE artist : String
@@ -96,7 +96,7 @@ CLASS Song
         next ← song
     END METHOD
 
-END CLASS
+    END CLASS
 
 STOP
 ## 📚 2️⃣ Pseudocode – Playlist Class
@@ -174,16 +174,16 @@ CLASS Playlist
     END METHOD
 
 
-END CLASS
+    END CLASS
 
-STOP
+    STOP
 ##  📚 3️⃣ Pseudocode – MP3Player Class
 
 (Playback Engine + Threading + State Machine)
 
-START
+    START
 
-CLASS MP3Player
+    CLASS MP3Player
 
     DECLARE player
     DECLARE playerThread
@@ -340,9 +340,9 @@ CLASS MusicPlayerApp
     END METHOD
 
 
-END CLASS
+    END CLASS
 
-STOP
+    STOP
 
 
 ## 🧠 Key Concepts Demonstrated
@@ -368,5 +368,23 @@ STOP
 
 
 It demonstrates how a Singly Linked List can be used to dynamically manage a playlist while integrating playback functionality through multithreading and state management.
+
+## SCREENSHOT
+OUTPUT
+img(<img width="1364" height="731" alt="image" src="https://github.com/user-attachments/assets/30cac0dc-06cf-45a5-a9eb-246f68715d10" />
+img(<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/97e5d44e-f050-4a48-82d9-95ba5c513833" />
+
+Sample of the code
+img(<img width="1354" height="768" alt="image" src="https://github.com/user-attachments/assets/3321c686-7c5a-4581-8465-84d5a0ecf277" />
+
+img(<img width="1361" height="768" alt="image" src="https://github.com/user-attachments/assets/87a4c35f-2e2f-4ecd-a0af-1ec25d962835" />
+
+img(<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/5b884585-4505-46dc-888f-42584054cb54" />
+
+img(<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/b4b69b4c-a402-492b-8466-5f7f3dfaf9dc" />
+
+
+
+
 
 
