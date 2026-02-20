@@ -106,9 +106,10 @@ public class Main {
 
 
 ## PSUEDO CODE
-START
 
-CLASS CNode
+    START
+
+    CLASS CNode
     DECLARE data AS String
     DECLARE next AS CNode
 
@@ -116,10 +117,11 @@ CLASS CNode
         SET this.data = data
         SET this.next = NULL
     END CONSTRUCTOR
-END CLASS
+
+    END CLASS
 
 
-CLASS Circular
+    CLASS Circular
 
     DECLARE head AS CNode
 
@@ -221,9 +223,9 @@ CLASS Circular
 
     END METHOD
 
-END CLASS
+    END CLASS
 
-END
+    END
 
 ## 🔍 Notes
 
@@ -233,6 +235,11 @@ Edge cases (empty list, single-node list) are handled in insertion and deletion 
 
 The Display() method ensures traversal stops once the list loops back to the head.
 
-## 📜 License
+## SCREENSHOTS
+OUTPUT
+IMG(<img width="1333" height="768" alt="image" src="https://github.com/user-attachments/assets/2265bb70-9c59-4669-89f5-5a9d872a89e6" />
+the code
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/5a7a3644-0e05-4cea-a94f-e51754080f11" />
 
-This project is open-source and free to use for educational purposes.
+
+img(<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/b1fe2d03-6864-41ed-a641-1d3fc572c5d6" />
