@@ -111,9 +111,9 @@ END OF PLAYLIST !
 
 ## Pseudo code
 
-START
+    START
 
-CLASS SongNode
+    CLASS SongNode
     DECLARE song AS Song
     DECLARE Next AS SongNode
 
@@ -121,10 +121,10 @@ CLASS SongNode
         SET this.song = song
         SET this.Next = NULL
     END CONSTRUCTOR
-END CLASS
+    END CLASS
 
 
-CLASS Song
+    CLASS Song
     DECLARE Title AS String
     DECLARE artist AS String
     DECLARE duration AS Integer
@@ -190,8 +190,8 @@ CLASS Song
         END METHOD
 
     END CLASS
-END CLASS
-END
+    END CLASS
+      END
 
 
 
@@ -207,4 +207,12 @@ END
 * Exception Handling
 
 
+## SCREENSHOTS
+OUTPUT
+img(<img width="1364" height="768" alt="image" src="https://github.com/user-attachments/assets/9ff64a6c-0a5e-4135-9b85-9cb06d11cc31" />
+
+Sample
+img(<img width="1365" height="768" alt="image" src="https://github.com/user-attachments/assets/792a061e-24c8-4c19-b2bb-6265fd1813c2" />
+
+img(<img width="1348" height="768" alt="image" src="https://github.com/user-attachments/assets/79533f5f-8bb4-4c4c-80fb-baaf7715ceb7" />
 
