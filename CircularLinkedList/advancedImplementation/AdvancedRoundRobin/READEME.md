@@ -182,3 +182,14 @@ Until all complete.
 5.Node Traversal
 
 6.Dynamic Memory Structure
+
+## SCREENSHOT
+output
+img (<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/8d81cf68-7070-4653-8883-20953f6b0523" />
+Sample of the code
+img(<img width="1360" height="650" alt="image" src="https://github.com/user-attachments/assets/73ff2818-77cd-4999-9baf-89f6de3a6431" />
+img(<img width="1366" height="664" alt="image" src="https://github.com/user-attachments/assets/6e14503e-aef1-46d4-91aa-7212253274ca" />
+
+img(<img width="1365" height="768" alt="image" src="https://github.com/user-attachments/assets/d79e6b0b-4beb-400f-a64a-805a22d19e88" />
+
+
