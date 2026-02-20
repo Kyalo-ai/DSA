@@ -271,17 +271,19 @@ END
 
 
 ---
+## SCREENSHOT
+OUTPUT
+img(<img width="1365" height="768" alt="image" src="https://github.com/user-attachments/assets/7b0e7ebb-063f-4aed-b984-8422badfee03" />
+
+img(<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/1df5f042-f207-4ee0-b090-096a26850039" />
+
+img(<img width="1356" height="768" alt="image" src="https://github.com/user-attachments/assets/44de1a7e-bfee-4550-a339-7612231c3aac" />
+
+Sample code
+img(<img width="1366" height="710" alt="image" src="https://github.com/user-attachments/assets/098a7527-787d-44be-aa87-5d709a605c46" />
+
+img(<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/7c4000c5-dd90-4cf7-abff-9e3ca200bbc1" />
 
 
-## 📚 Educational Purpose
-
-This project is intended for learning data structures and Java fundamentals.
-
-
----
-
-## 📄 License
-
-free to use for learning and personal projects.
 
 
