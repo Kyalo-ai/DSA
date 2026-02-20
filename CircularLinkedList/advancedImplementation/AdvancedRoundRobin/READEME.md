@@ -55,8 +55,8 @@ Continue looping until all processes are completed.
 
 ## 📝 FULL PSEUDOCODE
 ## 🔹 Node Structure
-START
-CLASS CNode
+    START
+    CLASS CNode
     DECLARE data AS String
     DECLARE burstTime AS Integer
     DECLARE remainingTime AS Integer
@@ -71,19 +71,19 @@ CLASS CNode
         SET this.remainingTime = burstTime
         SET this.next = NULL
     END CONSTRUCTOR
-END CLASS
-END
+    END CLASS
+    END
 # 🔹 RoundRobin Class
-START
-CLASS RoundRobin
+    START
+    CLASS RoundRobin
     DECLARE head AS CNode
     CONSTRUCTOR RoundRobin()
         SET head = NULL
     END CONSTRUCTOR
-END
+    END
 # 🔹 Insert Process at End
-START
-METHOD InsertEnd(data, burstTime)
+    START
+    METHOD InsertEnd(data, burstTime)
     CREATE newNode AS CNode(data, burstTime)
     IF head IS NULL THEN
         SET newNode.next = newNode
@@ -96,11 +96,11 @@ METHOD InsertEnd(data, burstTime)
     END WHILE
     SET temp.next = newNode
     SET newNode.next = head
-END METHOD
-END
+    END METHOD
+    END
 # 🔹 Run Round Robin Scheduling
-START
-METHOD runRoundRobin(timeQuantum)
+    START
+    METHOD runRoundRobin(timeQuantum)
     IF head IS NULL THEN
         PRINT "No processes to run"
         RETURN
@@ -110,7 +110,7 @@ METHOD runRoundRobin(timeQuantum)
     SET completed = 0
     SET processCount = countProcesses()
     WHILE completed < processCount DO
-        IF current.remainingTime > 0 THEN
+       IF current.remainingTime > 0 THEN
             SET executeTime = MIN(timeQuantum, current.remainingTime)
             SET current.remainingTime =
                 current.remainingTime - executeTime
@@ -122,11 +122,11 @@ METHOD runRoundRobin(timeQuantum)
         SET current = current.next
     END WHILE
     PRINT "All processes completed in " + totalTime
-END METHOD
-END
+    END METHOD
+     END
 # 🔹 Count Processes
-START
-METHOD countProcesses()
+    START
+    METHOD countProcesses()
     IF head IS NULL THEN
         RETURN 0
     END IF
@@ -137,11 +137,11 @@ METHOD countProcesses()
         SET temp = temp.next
     UNTIL temp IS head
     RETURN count
-END METHOD
-END
+    END METHOD
+    END
 # 🔹 Reset Processes
-START
-METHOD resetProcesses()
+    START
+    METHOD resetProcesses()
     IF head IS NULL THEN
         RETURN
     END IF
@@ -150,7 +150,7 @@ METHOD resetProcesses()
         SET temp.remainingTime = temp.burstTime
         SET temp = temp.next
     UNTIL temp IS head
-END METHOD
+    END METHOD
 
 # 📈 Example Execution
 
