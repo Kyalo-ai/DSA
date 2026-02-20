@@ -1,10 +1,11 @@
 # MATRIX MULTIPLICATION
 -Its a matrix mulplication using arrays .
--The psuedo code its below
+-The psuedo code its below 
+
 # PSUEDO CODE
-BEGIN
-DEFINE matix A as 3 *2
-DEFINE matix B as 2*3
+     BEGIN
+     DEFINE matix A as 3 *2
+     DEFINE matix B as 2*3
     DEFINE matrix A as:
         [1  2  3]
         [4  5  6]
@@ -25,6 +26,12 @@ DEFINE matix B as 2*3
     PRINT C[0][0] , C[0][1]
     PRINT C[1][0] , C[1][1]
 
-END
+    END
+
+## screenshots
+img(<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/2a664b1a-f9b9-4742-b297-c11f4a76c5af" />
+
+output
+img(<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/8832ce02-b2b2-424c-ac91-3d580c24f262" />
 
 
